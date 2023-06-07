@@ -1,0 +1,20 @@
+.card-section-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: max-content;
+    position: relative;
+}
+
+.card-section-col {
+    width: 20%;
+    height: 100px;
+    position: relative;
+}
+
+.card-section-main-col {
+    width: 60%;
+    padding: 0;
+    height: max-content;
+    position: relative;
+}
