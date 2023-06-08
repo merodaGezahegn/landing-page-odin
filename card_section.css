@@ -7,14 +7,91 @@
 }
 
 .card-section-col {
-    width: 20%;
+    width: 10%;
     height: 100px;
     position: relative;
 }
 
 .card-section-main-col {
-    width: 60%;
+    width: 80%;
     padding: 0;
     height: max-content;
     position: relative;
+}
+/*inspairation start*/
+
+.inspairation{
+    background-color: #E2e2e9;
+   padding: 60px;
+    margin: 20px;
+   
+
+}
+.inspairation h1{
+    padding: 40px;
+    font-style: italic;
+    color: #1F2937;
+    
+
+
+}
+.inspairation h2{
+
+    font-style: normal;
+    color: black;
+    text-align: end;
+ 
+
+}
+/*inspairation end*/
+.call-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: max-content;
+    position: relative;
+    margin-top: 100px;
+}
+
+.call-col {
+    width: 15%;
+    height: 100px;
+    position: relative;
+}
+
+.call-main-col {
+    display: flex;
+    color: white;
+    border-radius: 10px;
+    background-color: #3882F6;;
+    width: 70%;
+    padding: 30px;
+    height: max-content;
+    align-items: center;
+    justify-content: center;
+   
+}
+.blue-text{
+    flex: 1;
+}
+.buttons button{
+ color: white;
+ width: 130px;
+ height: 40px;
+ background-color: #3882F6;
+ border: 2px solid white;
+ border-radius: 10px;
+ cursor: pointer;
+   
+}
+/*call end*/
+.footer{
+    width: 100%;
+    background-color: #1F2937;
+    color: #E2e2e9;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 100px;
+    
 }
